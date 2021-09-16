@@ -13,7 +13,7 @@ const App = (props) => {
             <Layout>
                 <Switch>
                     <Route exact path="/calculator" component={CalculatorContainer} />
-                    <Route exact path="/" component={Home} />
+                    <Route exact path="/Math-tools-app" component={Home} />
                     <Route exact path='/facts' component={FactsContainer} />
                     <Route component={NotFound} />
                 </Switch>
